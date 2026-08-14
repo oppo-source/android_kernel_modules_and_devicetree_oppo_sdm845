@@ -1,0 +1,7 @@
+#ifdef VENDOR_EDIT
+config FG_TASK_UID
+	bool "Enable /proc/fg_info/ if EXPERT"
+	default y
+	help
+	  Add foreground process optimize support to promote performance .
+#endif /*VENDOR_EDIT*/
